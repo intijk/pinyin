@@ -12,6 +12,7 @@ var cases = [
     STYLE_TO3NE:        [["wo3"]],
     STYLE_INITIALS:     [[""]],
     STYLE_FIRST_LETTER: [["w"]],
+    STYLE_FIRST_CAPITAL:[["Wo"]],
   } ],
 
   // 多音字
@@ -22,6 +23,7 @@ var cases = [
     STYLE_TO3NE:        [["zho1ng", "zho4ng"]],
     STYLE_INITIALS:     [["zh"]],
     STYLE_FIRST_LETTER: [["z"]],
+    STYLE_FIRST_CAPITAL:[["Zhong"]],
   } ],
 
   // 元音字
@@ -32,6 +34,7 @@ var cases = [
     STYLE_TO3NE:        [["a4i"]],
     STYLE_INITIALS:     [[""]],
     STYLE_FIRST_LETTER: [["a"]],
+    STYLE_FIRST_CAPITAL:[["Ai"]],
   } ],
   ["啊", {
     STYLE_NORMAL:       [["a"]],
@@ -40,6 +43,7 @@ var cases = [
     STYLE_TO3NE:        [["a1", "a2", "a3", "a4", "a"]],
     STYLE_INITIALS:     [[""]],
     STYLE_FIRST_LETTER: [["a"]],
+    STYLE_FIRST_CAPITAL:[["A"]],
   } ],
 
   // 单音词
@@ -50,6 +54,7 @@ var cases = [
     STYLE_TO3NE:        [["wo3"], ["shi4"], ["shui2"]],
     STYLE_INITIALS:     [[""], ["sh"], ["sh"]],
     STYLE_FIRST_LETTER: [["w"], ["s"], ["s"]],
+    STYLE_FIRST_CAPITAL:[["Wo"], ["Shi"], ["Shui"]],
   } ],
 
   // 多音字，单音词。分词后可以准确识别读音。
@@ -69,6 +74,7 @@ var cases = [
     },
     STYLE_INITIALS:     [["zh"], ["g"]],
     STYLE_FIRST_LETTER: [["z"], ["g"]],
+    STYLE_FIRST_CAPITAL:[["Zhong"], ["Guo"]],
   } ],
   [ "重心", {
     STYLE_NORMAL:       {
@@ -95,6 +101,10 @@ var cases = [
       normal: [["z", "c"], ["x"]],
       segment: [["z"], ["x"]],
     },
+    STYLE_FIRST_CAPITAL: {
+      normal: [["Zhong", "Chong"], ["Xin"]],
+      segment: [["Zhong"], ["Xin"]],
+    },
   } ],
 
   // 英文
@@ -105,6 +115,7 @@ var cases = [
     STYLE_TO3NE:        [["a"]],
     STYLE_INITIALS:     [["a"]],
     STYLE_FIRST_LETTER: [["a"]],
+    STYLE_FIRST_CAPITAL:[["a"]],
   } ],
   [ "aa", {
     STYLE_NORMAL:       [["aa"]],
@@ -113,6 +124,7 @@ var cases = [
     STYLE_TO3NE:        [["aa"]],
     STYLE_INITIALS:     [["aa"]],
     STYLE_FIRST_LETTER: [["aa"]],
+    STYLE_FIRST_CAPITAL:[["aa"]],
   } ],
   //[ "a a", {
     //STYLE_NORMAL:       [["a a"]],
@@ -129,6 +141,7 @@ var cases = [
     STYLE_TO3NE:        [["yi1"], [" "], ["yi1"]],
     STYLE_INITIALS:     [[""], [" "], [""]],
     STYLE_FIRST_LETTER: [["y"], [" "], ["y"]],
+    STYLE_FIRST_CAPITAL:[["yi"], [" "], ["yi"]],
   } ],
 
   // 中英混合
@@ -139,6 +152,7 @@ var cases = [
     STYLE_TO3NE:        [["pi1n"], ["yi1n"], ["(pinyin)"]],
     STYLE_INITIALS:     [["p"], [""], ["(pinyin)"]],
     STYLE_FIRST_LETTER: [["p"], ["y"], ["(pinyin)"]],
+    STYLE_FIRST_CAPITAL:[["Pin"], ["Yin"], ["(pinyin)"]],
   } ],
 
   // 中英混合，多音字，单音词。
@@ -158,6 +172,7 @@ var cases = [
     },
     STYLE_INITIALS:     [["zh"], ["g"], ["(china)"]],
     STYLE_FIRST_LETTER: [["z"], ["g"], ["(china)"]],
+    STYLE_FIRST_CAPITAL:[["Zhong"], ["Guo"], ["(china)"]],
   } ],
 
   // 中英混合，多音字，单音词。
@@ -168,6 +183,7 @@ var cases = [
     STYLE_TO3NE:        [["0"], ["ta4o"], ["jia4", "jie4", "jie"]],
     STYLE_INITIALS:     [["0"], ["t"], ["j"]],
     STYLE_FIRST_LETTER: [["0"], ["t"], ["j"]],
+    STYLE_FIRST_CAPITAL:[["0"], ["Tao"], ["Jia", "Jie"]],
   } ],
 ];
 

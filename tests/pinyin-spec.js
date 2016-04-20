@@ -12,6 +12,7 @@ const cases = [
     STYLE_TO3NE:        [["wo3"]],
     STYLE_INITIALS:     [[""]],
     STYLE_FIRST_LETTER: [["w"]],
+    STYLE_FIRST_CAPITAL:[["Wo"]],
   } ],
 
   // 多音字
@@ -22,6 +23,7 @@ const cases = [
     STYLE_TO3NE:        [["zho1ng", "zho4ng"]],
     STYLE_INITIALS:     [["zh"]],
     STYLE_FIRST_LETTER: [["z"]],
+    STYLE_FIRST_CAPITAL:[["Zhong"]],
   } ],
 
   // 元音字
@@ -32,6 +34,7 @@ const cases = [
     STYLE_TO3NE:        [["a4i"]],
     STYLE_INITIALS:     [[""]],
     STYLE_FIRST_LETTER: [["a"]],
+    STYLE_FIRST_CAPITAL:[["Ai"]],
   } ],
   ["啊", {
     STYLE_NORMAL:       [["a"]],
@@ -40,6 +43,7 @@ const cases = [
     STYLE_TO3NE:        [["a1", "a2", "a3", "a4", "a"]],
     STYLE_INITIALS:     [[""]],
     STYLE_FIRST_LETTER: [["a"]],
+    STYLE_FIRST_CAPITAL:[["A"]],
   } ],
 
   // 单音词
@@ -50,6 +54,7 @@ const cases = [
     STYLE_TO3NE:        [["wo3"], ["shi4"], ["shui2"]],
     STYLE_INITIALS:     [[""], ["sh"], ["sh"]],
     STYLE_FIRST_LETTER: [["w"], ["s"], ["s"]],
+    STYLE_FIRST_CAPITAL:[["Wo"], ["Shi"], ["Shui"]],
   } ],
 
   // 多音词
@@ -60,6 +65,7 @@ const cases = [
     STYLE_TO3NE:        [["zho1ng", "zho4ng"], ["guo2"]],
     STYLE_INITIALS:     [["zh"], ["g"]],
     STYLE_FIRST_LETTER: [["z"], ["g"]],
+    STYLE_FIRST_CAPITAL:[["Zhong"], ["Guo"]],
   } ],
   [ "重心", {
     STYLE_NORMAL:       [["zhong", "chong"], ["xin"]],
@@ -68,6 +74,7 @@ const cases = [
     STYLE_TO3NE:        [["zho4ng", "cho2ng"], ["xi1n"]],
     STYLE_INITIALS:     [["zh", "ch"], ["x"]],
     STYLE_FIRST_LETTER: [["z", "c"], ["x"]],
+    STYLE_FIRST_CAPITAL:[["Zhong", "Chong"], ["Xin"]],
   } ],
 
   // 英文
@@ -78,6 +85,7 @@ const cases = [
     STYLE_TO3NE:        [["a"]],
     STYLE_INITIALS:     [["a"]],
     STYLE_FIRST_LETTER: [["a"]],
+    STYLE_FIRST_CAPITAL:[["a"]],
   } ],
   [ "aa", {
     STYLE_NORMAL:       [["aa"]],
@@ -86,6 +94,7 @@ const cases = [
     STYLE_TO3NE:        [["aa"]],
     STYLE_INITIALS:     [["aa"]],
     STYLE_FIRST_LETTER: [["aa"]],
+    STYLE_FIRST_CAPITAL:[["aa"]],
   } ],
   [ "a a", {
     STYLE_NORMAL:       [["a a"]],
@@ -94,6 +103,7 @@ const cases = [
     STYLE_TO3NE:        [["a a"]],
     STYLE_INITIALS:     [["a a"]],
     STYLE_FIRST_LETTER: [["a a"]],
+    STYLE_FIRST_CAPITAL:[["a a"]],
   } ],
 
   // 中英混合
@@ -104,6 +114,7 @@ const cases = [
     STYLE_TO3NE:        [["pi1n"], ["yi1n"], ["(pinyin)"]],
     STYLE_INITIALS:     [["p"], [""], ["(pinyin)"]],
     STYLE_FIRST_LETTER: [["p"], ["y"], ["(pinyin)"]],
+    STYLE_FIRST_CAPITAL:[["Pin"], ["Yin"], ["(pinyin)"]],
   } ],
 
   // 中英混合，多音字
@@ -114,6 +125,7 @@ const cases = [
     STYLE_TO3NE:        [["zho1ng", "zho4ng"], ["guo2"], ["(china)"]],
     STYLE_INITIALS:     [["zh"], ["g"], ["(china)"]],
     STYLE_FIRST_LETTER: [["z"], ["g"], ["(china)"]],
+    STYLE_FIRST_CAPITAL:[["Zhong"], ["Guo"], ["(china)"]],
   } ],
 ];
 
